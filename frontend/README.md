@@ -1,1 +1,1 @@
-Frontend placeholder for FedCollect AI.
+Frontend placeholder and UI for FedCollect AI.
