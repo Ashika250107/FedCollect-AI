@@ -45,6 +45,19 @@ The AI module evaluates debt amount, overdue duration, customer history, agent p
 
 ---
 
+## UI MVP Prototype
+
+The `ui-mvp` folder contains a functional HTML/CSS-based UI prototype
+demonstrating:
+- Role-based dashboards (Internal Team, Agent, Customer)
+- AI-assisted priority scoring (rule-based MVP)
+- Ethical debt collection workflow
+
+This UI is built as a rapid prototype to validate the product concept.
+
+
+---
+
 ## Project Status
 This repository represents a prototype-level MVP and conceptual architecture developed for the FedEx Hackathon.
 
