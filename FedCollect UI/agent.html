@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<p style="color: gray;">
+Ethical, AI-Assisted Debt Collection Platform (MVP UI)
+</p>
+
+<head>
+  <title>Agent Dashboard</title>
+  <style>
+h2 {
+  color: #0A2540;
+}
+button {
+  background-color: #0A2540;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+button:hover {
+  opacity: 0.9;
+}
+
+    body { font-family: Arial; background: #f0f4f7; padding: 20px; }
+    table {
+      width: 100%;
+      background: white;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Agent Dashboard</h2>
+
+  <table>
+  <tr>
+    <th>Customer</th>
+    <th>Amount</th>
+    <th>Priority</th>
+    <th>Action</th>
+  </tr>
+  <tr>
+    <td>Customer A</td>
+    <td>₹50,000</td>
+    <td style="color:red;">High (AI Scored)</td>
+    <td>
+      <button onclick="alert('Calling Customer...')">Call</button>
+    </td>
+  </tr>
+</table>
+
+<p style="font-size: 12px; color: gray; margin-top: 10px;">
+*Priority generated using AI risk scoring (rule-based MVP)
+</p>
+
+
+  <br>
+  <a href="index.html">Logout</a>
+</body>
+</html>

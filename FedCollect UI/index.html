@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FedCollect AI - Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+    }
+
+    .header {
+      text-align: center;
+      padding: 30px 10px 10px;
+    }
+
+    .header h1 {
+      margin: 0;
+      color: #0A2540;
+    }
+
+    .header p {
+      margin-top: 5px;
+      color: gray;
+      font-size: 14px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 140px);
+    }
+
+    .box {
+      background: white;
+      padding: 30px;
+      width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 12px;
+      cursor: pointer;
+      background-color: #0A2540;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>FedCollect AI</h1>
+    <p>Ethical, AI-Assisted Debt Collection Platform (MVP UI)</p>
+  </div>
+
+  <div class="container">
+    <div class="box">
+      <h3>Select Role</h3>
+
+      <button onclick="location.href='admin.html'">Internal Team</button>
+      <button onclick="location.href='agent.html'">Debt Collection Agent</button>
+      <button onclick="location.href='customer.html'">Customer</button>
+    </div>
+  </div>
+
+</body>
+</html>
